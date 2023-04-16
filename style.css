@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    }
+    h1 {
+    color: blue;
+    }
+    /*for the paragraph line using p as character or you can simply use # with the id */
+    p { 
+    color: green;
+    }
+/* after . class name is written */
+    .third{
+        color:red;
+    }
+
+    /*descendant*/
+    .main-div h1{
+        background-color: yellow;
+    }
+
+    /*adjacent*/
+    h1+h2{
+        background-color: orange;
+        color:white;
+    }
