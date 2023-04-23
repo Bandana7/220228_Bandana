@@ -23,3 +23,19 @@ body {
         background-color: orange;
         color:white;
     }
+    /*typography*/
+    h1{
+        font-family: Arial,Sans-serif;
+        font-size: 50px;
+        font-weight:100;
+        font-style:italic;
+    }
+    
+    p{
+        font-family:Arial,Serif;
+        font-size:16px;
+        color:red;
+    }
+    body{
+        background-image: linear-gradient(to right, white, rgb(175, 236, 179),rgb(187, 243, 187));
+    }
