@@ -108,3 +108,20 @@ body {
         opacity: 1;
     }
 }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.item{
+    width: 100 px;
+    height: 100 px;
+    background-color: green;
+    margin: 5px;
+}
+
+.item1{
+    flex-grow:2;
+}
