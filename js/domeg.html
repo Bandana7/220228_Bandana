@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+        function myFun(){
+            document.getElementById("demo").classList.add("dark-mode");
+        }
+        function myFun2(){
+            document.getElementById("demo").classList.remove("dark-mode");
+        }
+
+    </script>
+    <style type="text/css">
+        .dark-mode{
+            background-color: darkmagenta;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div id="demo" style="border: 1px solid black">
+        <h1>This is title</h1>
+        <p>
+            This is just an example of dom manipulation.
+        </p>
+    </div>
+    <button onclick="myFun2()">Light mode</button>
+    <button onclick="my
+    Fun()">Dark mode</button>
+</body>
+</html>
